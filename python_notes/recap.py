@@ -111,12 +111,25 @@ fav_games = [
     "Dark souls",
     "Apex legends"
 ]
-print(fav_games)
-fav_games[1] = "GTA" #changes the second list item to GTA
-print(fav_games)
-print(len(fav_games))
-fav_games.append("Metal gear solid") #adds to the end of list
-print(fav_games)
-fav_games.pop(2)
-print(fav_games)
-#various list functions
+
+for i in fav_games:
+    print(i) #print them sequentially
+
+for i in range(2,10,2):
+    print(i) # start - 2. stop - 10 (doesnt print 10). step 2. sequentially counts from 2.
+
+# print(fav_games)
+# fav_games[1] = "GTA" #changes the second list item to GTA
+# print(fav_games)
+# print(len(fav_games))
+# fav_games.append("Metal gear solid") #adds to the end of list
+# print(fav_games)
+# fav_games.pop(2)
+# print(fav_games)
+# #various list functions
+
+num = 0
+
+while num <10:
+    num+=1
+    print(num)
