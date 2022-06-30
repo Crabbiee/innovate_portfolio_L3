@@ -1,0 +1,20 @@
+body{background-color: rgb(22, 102, 75);
+}
+
+h1, h2{color:aqua}
+
+.centertext{
+    text-align: center;
+}
+
+nav>a{
+    color: beige;
+    text-decoration: none;
+    font: size 30px;
+}
+/* This will only change links within the nav parent */
+
+a:hover{
+    color: deeppink;
+}
+/* this will make links change colour when hovered over */
