@@ -41,15 +41,15 @@ import random
 # if "paint" in answer: # in is p much the opposite of not in
 #     print("Correct")
 
-# def add_up():
-#     num1 = input("What is the first number you'd like to add up? \n")
-#     num2 = input("What is the second number you'd like to add up? \n")
-#     try:
-#         print(int(num1) + int(num2))
-#     except:
-#         print("Enter a NUMBER only")
-#         add_up()
-# add_up()   #  TRY/EXCEPT WILL TRY TO DO SOMETHING, AND IF IT FAILS IT WILL RUN THE EXCEPT INSTEAD OF JUST HITTING A FATAL ERROR
+def add_up():
+    num1 = input("What is the first number you'd like to add up? \n")
+    num2 = input("What is the second number you'd like to add up? \n")
+    try:
+        print(int(num1) + int(num2))
+    except:
+        print("Enter a NUMBER only")
+        add_up()
+add_up()   #  TRY/EXCEPT WILL TRY TO DO SOMETHING, AND IF IT FAILS IT WILL RUN THE EXCEPT INSTEAD OF JUST HITTING A FATAL ERROR
 
 # light = False
 
