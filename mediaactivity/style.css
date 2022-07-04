@@ -1,0 +1,36 @@
+body {
+    color: red;
+}
+
+.desktop, .mobile {
+    display: none;
+}
+
+@media (orientation: portrait){
+    .title {
+        text-align: center;
+        padding: 5%;
+    }
+.mobile {
+    display: inline-block;
+}
+.body {
+    background-color: black;
+    color:rgb(163, 163, 163)
+}
+}
+
+
+@media (orientation: landscape){
+    .title {
+        text-align: center;
+        padding: 5%;
+    }
+.desktop {
+    display: inline-block;
+}
+.body {
+    background-color: rgb(163, 163, 163);
+    color: black
+}
+}
